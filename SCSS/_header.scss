@@ -1,0 +1,18 @@
+.banner{
+    border-style:solid;
+    border-radius: 10px;
+    background-image: url("../IMAGES/tecladobanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner img{
+    margin: 5px;
+    width: 10%;
+    height: 10%;
+    border-style: solid;
+    border-radius: 50%;
+}

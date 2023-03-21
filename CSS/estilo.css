@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: JosefinSans-Medium;
+  src: url("../FONTS/Josefin_Sans/JosefinSans-Medium.ttf"); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kanit', sans-serif; }
+
+.banner {
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url("../IMAGES/tecladobanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+.banner img {
+  margin: 5px;
+  width: 10%;
+  height: 10%;
+  border-style: solid;
+  border-radius: 50%; }
+
+body {
+  background: linear-gradient(#dcdffa, #bdcafa, #9697d3, #8687bb, #6271a3, #373766);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: JosefinSans-Medium;
+  line-height: 1.5; }
